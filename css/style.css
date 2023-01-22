@@ -23,7 +23,8 @@ body {
 
 header{
     height:70px ;
-    background-color:#0f1626;
+    /* background-color:#0f1626; */
+    background-color:#0f53f1;
     position: fixed;
     width: 100%;
     padding-top: 15px;
