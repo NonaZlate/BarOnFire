@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <title>BarOnFire</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="../index.html">
+        
+          BarOnFire
+          <i class="fas fa-glass-martini-alt logo"></i>
+        
+      </a>
+      <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+
+    <div class="page-container">
+      <aside id="side-menu">
+        <a href="/BarOnFire/index.html"
+          >Acasa
+          <i class="fas fa-home"></i>
+        </a>
+        <a href="/BarOnFire/pages/evenimente.html"
+          >Pachete
+          <i class="fas fa-wine-glass"></i>
+        </a>
+        <a href="/BarOnFire/pages/contacte.html"
+          >Contacte
+          <i class="fas fa-phone-volume"></i>
+        </a>
+      </aside>
+
+      <main>
+        <h2 class="title">Contacte</h2>
+        <div class="row">
+          <div class="col-50">
+            <h3>Contacteaza-ne daca:</h3>
+            <ul class="contact-list">
+              <li>
+                Doresti consultanta pentru un eveniment cu adevarat reusit
+              </li>
+              <li>
+               Doresti un meniu variat de bauturi, stiluri de preparare si explozii de
+                gusturi
+              </li>
+              <li>Doresti sa organizezi un eveniment de neuitat</li>
+              <li>Ai sugestii/propuneri</li>
+            </ul>
+          </div>
+
+          <div class="col-50">
+            <h3>Date de contact:</h3>
+            <ul class="contact-list">
+              <li><b>Adresa:</b> Iasi, Valea Lupului, str.Smochinului nr.5</li>
+              <li><b>Telefon:</b> 0753929523</li>
+              <li><b>Program:</b> Non stop</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-50">
+            <iframe class="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2711.576539540619!2d27.481763715559048!3d47.18572697915909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cae48937600a19%3A0xefdcba5be768acf5!2sStr.%20Smochinului!5e0!3m2!1sro!2sro!4v1669470957569!5m2!1sro!2sro"
+              
+             
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="col-50">
+            <div class="contact-form">
+                <form>
+                    <h3 class="centered">Lasa un mesaj</h3>
+                    <input type="text" placeholder="Nume" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea rows="3" placeholder="Mesaj" required></textarea>
+                    <input type="submit" value="Transmite">
+                </form>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="../js/myscript.js"></script>
+  </body>
+</html>
